@@ -1,0 +1,65 @@
+body{
+	color: #3366ff;
+	background-color: #FFFFD8;
+	font-family: Trebuchet MS;
+}
+#navbar{
+	position: : fixed;
+}
+
+#navbar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #E0FEFE;
+}
+
+#navbar li{
+	float: left;
+}
+
+
+#navbar li a{
+	display: block;
+	color: #3366ff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#navbar li a:hover:not(.active) {
+	background-color: #99ccff;
+}
+
+.active {
+  background-color: #C7CEEA;
+}
+
+.text{
+	margin-top: 3%;
+	margin-bottom: 3%;
+	font-size: 30px;
+	text-align: center;
+}
+#wintxt{
+	margin-top: 5%;
+	font-size: 50px;
+	text-align: center;
+}
+
+.options{
+	text-align: center;
+	margin-top: 3%;
+}
+.choice{
+	border: 4px solid black;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.choice:hover{
+	cursor: pointer;
+	background-color: black;
+}
